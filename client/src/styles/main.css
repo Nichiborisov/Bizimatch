@@ -1,0 +1,53 @@
+body {
+    background-color: #000;
+    color: #0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #111;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    color: #0f0;
+    text-decoration: none;
+  }
+  
+  .home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile-card {
+    background-color: #222;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .chat .messages {
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .chat .input {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
